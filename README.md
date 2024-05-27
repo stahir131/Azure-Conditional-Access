@@ -1,14 +1,10 @@
-<h4>Conditional Access</h4>
+<p align="center"><b>Conditional Access</b></p>
 
- Setting up Conditional Access policy to enforce Multi Factor Authentication. There are 100s of policies that can be enforced here.
- 
-Enforcing 2FA on some users and excluding some users based on the group they belong to.
-
-Created 2 groups: Enforce_2FA and Exclude_2FA groups
-
-Enforce_2FA contains user1 and user2
-
-Exclude_2FA contains only user3
+ Setting up Conditional Access policy to enforce Multi Factor Authentication. There are 100s of policies that can be enforced here.</br>
+ Enforcing 2FA on some users and excluding some users based on the group they belong to.</br>
+I have created 2 groups: Enforce_2FA and Exclude_2FA groups</br>
+- Enforce_2FA contains user1 and user2</br>
+- Exclude_2FA contains only user3</br>
 
 <b>Note: You’ll need to disable Security Default before creating any policy with Conditional access.</b>
 
