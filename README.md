@@ -1,4 +1,4 @@
-<p align="center"><b>Conditional Access</b></p>
+<p align="center"><b>Conditional Access to Enforce MFA</b></p>
 
 Configuring a Conditional Access policy for Multi-Factor Authentication (MFA) in Microsoft Entra ID (formerly Azure Active Directory) enables an organization to enforce additional security by requiring users to complete a second verification step during sign-in. Here’s a step-by-step guide:<br />
  <br />I have created a group: Enforce_2FA<br />
