@@ -1,4 +1,4 @@
-<p align="center"><b>Conditional Access to Enforce Company-wide MFA</b></p>
+<p align="center"><b>Conditional Access to Enforce Multi-factor Authentication</b></p>
 
 Configuring a Conditional Access policy for Multi-Factor Authentication (MFA) in Microsoft Entra ID (formerly Azure Active Directory) enables an organization to enforce additional security by requiring users to complete a second verification step during sign-in. Here’s a step-by-step guide:<br />
  <br />I have created a group: Enforce_2FA<br />
@@ -6,16 +6,17 @@ Configuring a Conditional Access policy for Multi-Factor Authentication (MFA) in
 <b>Note: You’ll need to disable Security Default before creating any policy with Conditional access.</b>
 
 **Step 1: Access Microsoft Entra ID (Azure AD) Portal<br />**
-Go to Microsoft Azure Admin Center at portal.azure.com and sign in with global administrator credentials.<br />
-In the left-hand menu, select Security > Conditional Access.
+Go to Microsoft Entra Admin Center at [Entra admin portal](portal.azure.com/) and sign in with global administrator credentials.<br />
+In the left-hand menu, select **Security** > **Conditional Access**.
 
 **Step 2: Create a New Conditional Access Policy**<br />
-In the Conditional Access section, click on + New policy to create a new policy.<br />
+In the Conditional Access section, click on + **New policy** to create a new policy.<br />
 Name :**Require MFA for All Users**.<br />
 Under Users: Under Include<br />
 Select <b>users and groups</b>
 Add Enforce_2FA group <br />
 Under Exclude> You can exclude any group out of this policy<br />
+
 ![image](https://github.com/user-attachments/assets/80f7b033-d391-4620-9935-30f5a2c1787f)
 
 <br />
